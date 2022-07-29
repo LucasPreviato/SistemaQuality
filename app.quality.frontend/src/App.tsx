@@ -1,17 +1,8 @@
-import './App.css'
-
-function App() {
-
-
+export function App() {
   return (
     <div>
       <h1>ola</h1>
       <h1>ola</h1>
     </div>
-
-
-
   )
 }
-
-export default App
