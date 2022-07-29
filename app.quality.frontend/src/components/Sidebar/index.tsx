@@ -1,5 +1,5 @@
 import { Popover } from '@headlessui/react'
-import { Button } from './Button'
+import { Button } from '../Button'
 
 import logoImg from '../assets/SysQuali.ico'
 import { NavLink } from 'react-router-dom'
