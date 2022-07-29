@@ -4,7 +4,13 @@ function App() {
 
 
   return (
-    <h1>ola</h1>
+    <div>
+      <h1>ola</h1>
+      <h1>ola</h1>
+    </div>
+
+
+
   )
 }
 
