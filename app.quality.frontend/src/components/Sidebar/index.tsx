@@ -42,7 +42,7 @@ const BUTTONS_INFO = [
 
 export function Sidebar() {
   return (
-    <Popover className="px-2 py-3 group bg-zinc-900 w-16 h-screen hover:w-48 transition-all duration-500 ease-linear flex flex-col overflow-y-scroll scrollbar-none ">
+    <Popover className="px-2 py-3 group bg-dark-700 w-16 h-screen hover:w-48 transition-all duration-500 ease-linear flex flex-col overflow-y-scroll scrollbar-none ">
       <NavLink
         to="/"
         className="mb-4 pb-4 border-b border-b-green-50 transition-all duration-1000"

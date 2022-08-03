@@ -15,7 +15,7 @@ export function Button({ src, title, variant, alt, path }: ButtonProps) {
       <NavLink
         to={path}
         className={`${
-          variant ? 'bg-purple-500' : 'bg-zinc-600'
+          variant ? 'bg-teal-500' : 'bg-zinc-600'
         } w-12 h-12 rounded-full px-3 group-hover:w-full transition-all duration-500 ease-linear flex items-center justify-start`}
       >
         <img src={src} alt={alt} className="w-6 h-6" />
