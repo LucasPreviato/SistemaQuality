@@ -12,11 +12,15 @@ import iconCadastro from '../../assets/img/imgsidebar/iconCadastro.svg'
 import logoImg from '../../assets/SysQuali.ico'
 
 const BUTTONS_INFO = [
-  { src: rhImg, title: 'RH', path: '/rh' },
   {
-    src: auditoriaImg,
-    title: 'Auditoria',
-    path: '/auditoria',
+    src: iconRotina,
+    title: 'Rotina',
+    path: '/rotina',
+  },
+  {
+    src: rhImg,
+    title: 'RH',
+    path: '/rh',
   },
   {
     src: equipamentoImg,
@@ -24,19 +28,86 @@ const BUTTONS_INFO = [
     path: '/equipamento',
   },
   {
-    src: fornecedoresImg,
-    title: 'Fornecedores',
-    path: 'fornecedores',
+    src: auditoriaImg,
+    title: 'Auditoria',
+    path: '/auditoria',
   },
   {
-    src: iconRotina,
-    title: 'Rotina',
-    path: 'rotina',
+    src: fornecedoresImg,
+    title: 'Fornecedores',
+    path: '/fornecedores',
   },
+
   {
     src: iconCadastro,
     title: 'Cadastro',
-    path: 'cadastro',
+    path: '/cadastro',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Relatórios',
+    path: '/relatorios',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Indicadores',
+    path: '/indicadores',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Documentos',
+    path: '/documentos',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Contratos',
+    path: '/contratos',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Manutenção',
+    path: '/manutencao',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Técnicos',
+    path: '/tecnicos',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Controles',
+    path: '/controles',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Chamados',
+    path: '/chamados',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Outros',
+    path: '/outros',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'TI',
+    path: '/ti',
+  },
+
+  {
+    src: iconCadastro,
+    title: 'Médicos',
+    path: '/medicos',
   },
 ]
 
