@@ -122,7 +122,7 @@ export function Sidebar() {
       </NavLink>
       <ul className="grid gap-4">
         {BUTTONS_INFO.map((button) => (
-          <li key={button.title} className="group">
+          <li key={button.title} className="group ">
             <Button src={button.src} title={button.title} path={button.path} />
           </li>
         ))}

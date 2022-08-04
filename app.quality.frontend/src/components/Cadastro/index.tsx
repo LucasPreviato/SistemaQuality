@@ -1,27 +1,72 @@
-import { Popover } from '@headlessui/react'
+import { SelectionPanel } from '../SelectionPanel'
+
+import rhImg from '../../assets/img/imgsidebar/iconRH.svg'
 import { CardButton } from '../CardButton'
+
+const CardButtonSelection = [
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+  {
+    title: 'Empresas',
+    icon: rhImg,
+    path: '/cadastro/empresas',
+  },
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+  {
+    title: 'Colaboradores',
+    icon: rhImg,
+    path: '/cadastro/colaboradores',
+  },
+]
 
 export function Cadastro() {
   return (
-    <div className="w-full p-12">
-      <Popover className="h-full bg-dark-600 rounded p-6 grid gap-4 grid-cols-6 place-items-center">
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-        <CardButton />
-      </Popover>
-    </div>
+    <SelectionPanel>
+      {CardButtonSelection.map((card) => (
+        <CardButton
+          key={card.title}
+          icon={card.icon}
+          path={card.path}
+          title={card.title}
+        />
+      ))}
+    </SelectionPanel>
   )
 }
