@@ -16,6 +16,9 @@ module.exports = {
           800: '#121214',
         },
       },
+      fontFamily: {
+        sans: 'Roboto, sans-serif',
+      },
     },
   },
   plugins: [require('tailwind-scrollbar')],

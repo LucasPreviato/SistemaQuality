@@ -7,7 +7,7 @@ const colaboratorsCards = [
   {
     title: 'Colaborador',
     icon: rhImg,
-    path: '/colaborador',
+    path: '/cadastro/colaboradores/colaborador',
   },
   {
     title: 'Cargos/funções',
