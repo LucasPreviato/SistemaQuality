@@ -56,7 +56,7 @@ const CardButtonSelection = [
   },
 ]
 
-export function Cadastro() {
+export function Fornecedores() {
   return (
     <SelectionPanel>
       {CardButtonSelection.map((card) => (

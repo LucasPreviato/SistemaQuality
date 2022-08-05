@@ -1,6 +1,6 @@
 import { SelectionPanel } from '../../SelectionPanel'
 
-import rhImg from '../../../assets/img/imgsidebar/iconRH.svg'
+import rhImg from '../../../assets/img/sidebar/iconRH.svg'
 import { CardButton } from '../../CardButton'
 
 const colaboratorsCards = [
