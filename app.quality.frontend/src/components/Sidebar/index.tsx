@@ -36,12 +36,12 @@ const BUTTONS_INFO = [
   {
     src: iconEquipamento,
     title: 'Equipamento',
-    path: '/equipamento',
+    path: '/equipamentos',
   },
   {
     src: iconAuditoria,
     title: 'Auditoria',
-    path: '/auditoria',
+    path: '/auditorias',
   },
   {
     src: iconFornecedores,
