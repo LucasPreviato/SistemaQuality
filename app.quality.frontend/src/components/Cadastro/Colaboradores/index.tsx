@@ -12,7 +12,7 @@ const colaboratorsCards = [
   {
     title: 'Cargos/funções',
     icon: rhImg,
-    path: '/cargos-funcoes',
+    path: '/cadastro/colaboradores/cargos-e-funcoes',
   },
   {
     title: 'Categoria de cargos',
