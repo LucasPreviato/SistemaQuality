@@ -2,12 +2,12 @@ import { NavLink } from 'react-router-dom'
 import { Popover } from '@headlessui/react'
 import { Button } from '../Button'
 
-import rhImg from '../../assets/img/imgsidebar/iconRH.svg'
-import auditoriaImg from '../../assets/img/imgsidebar/iconAuditoria.svg'
-import equipamentoImg from '../../assets/img/imgsidebar/iconEquipamento.svg'
-import fornecedoresImg from '../../assets/img/imgsidebar/iconFornecedores.svg'
-import iconRotina from '../../assets/img/imgsidebar/iconRotina.svg'
-import iconCadastro from '../../assets/img/imgsidebar/iconCadastro.svg'
+import rhImg from '../../assets/img/sidebar/iconRH.svg'
+import auditoriaImg from '../../assets/img/sidebar/iconAuditoria.svg'
+import equipamentoImg from '../../assets/img/sidebar/iconEquipamento.svg'
+import fornecedoresImg from '../../assets/img/sidebar/iconFornecedores.svg'
+import iconRotina from '../../assets/img/sidebar/iconRotina.svg'
+import iconCadastro from '../../assets/img/sidebar/iconCadastro.svg'
 
 import logoImg from '../../assets/SysQuali.ico'
 
