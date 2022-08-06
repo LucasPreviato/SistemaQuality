@@ -5,6 +5,7 @@ import { Colaboradores } from './components/Cadastro/Colaboradores'
 import { CargosFuncao } from './components/Cadastro/Colaboradores/CargosFuncao'
 import { Colaborador } from './components/Cadastro/Colaboradores/Colaborador'
 import { Empresas } from './components/Cadastro/Empresas'
+import { Unidades } from './components/Cadastro/Empresas/Unidades'
 import { Chamados } from './components/Chamados'
 import { Contratos } from './components/Contratos'
 import { Controles } from './components/Controles'
@@ -53,6 +54,7 @@ export function Router() {
           element={<CargosFuncao />}
         />
         <Route path="/cadastro/empresas" element={<Empresas />} />
+        <Route path="/cadastro/empresas/unidades" element={<Unidades />} />
       </Route>
     </Routes>
   )

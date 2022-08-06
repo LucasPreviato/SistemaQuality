@@ -7,7 +7,7 @@ const colaboratorsCards = [
   {
     title: 'Empresas',
     icon: rhImg,
-    path: '/empresas',
+    path: '/cadastro/empresas/unidades',
   },
 ]
 

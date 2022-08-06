@@ -10,7 +10,7 @@ export function StandardTable({
   tbodyChildren,
 }: StandardTableProps) {
   return (
-    <table className="w-full grid  table-auto">
+    <table className="w-full grid table-auto">
       <thead>
         <tr className="grid grid-cols-8 place-items-center rounded-t bg-teal-500">
           {theadChildren}
