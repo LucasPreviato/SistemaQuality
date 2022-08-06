@@ -1,3 +1,5 @@
+import { StandardTable } from '../../../StandardTable'
+
 const heading = [
   {
     title: 'ID',
@@ -50,23 +52,17 @@ const tableBody = [
 
 export function Unidades() {
   return (
-    <table>
-      <thead>
-        <tr>
-          {heading.map((head) => (
-            <th key={head.title}>{head.title}</th>
+    <StandardTable
+      tbodyChildren={tableBody.map((tr) => (
+        <tr key={tr.title}>
+          {tr.title.map((td) => (
+            <td key={tr.title}>{td.field}</td>
           ))}
         </tr>
-      </thead>
-      <tbody>
-        {tableBody.map((tbody) => (
-          <tr key={tbody.title}>
-            {tbody.title.map((tds) => (
-              <td key={tds.field}>{tds.field}</td>
-            ))}
-          </tr>
-        ))}
-      </tbody>
-    </table>
+      ))}
+      theadChildren={heading.map((head) => (
+        <th key={head.title}>{head.title}</th>
+      ))}
+    />
   )
 }
