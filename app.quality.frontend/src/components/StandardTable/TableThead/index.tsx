@@ -4,12 +4,10 @@ interface TableTheadProps {
   children: ReactNode
 }
 
-export default function TableThead({ children }: TableTheadProps) {
+export function TableThead({ children }: TableTheadProps) {
   return (
-    <thead>
-      <tr className="grid grid-cols-8 place-items-center rounded-t bg-teal-500">
-        {children}
-      </tr>
+    <thead className="w-full block">
+      <tr className="w-full rounded-t bg-teal-500 flex py-2">{children}</tr>
     </thead>
   )
 }

@@ -6,7 +6,7 @@ interface TableTbodyProps {
 
 export function TableTbody({ children }: TableTbodyProps) {
   return (
-    <tbody className="max-h-40  overflow-auto scrollbar-none grid gap-2 border-collapse border-x-2 border-b-2 rounded-b border-dark-600">
+    <tbody className="w-full flex flex-col max-h-40 overflow-y-auto scrollbar-none border-dark-600 border-collapse border-x-2 border-b-2 rounded-b">
       {children}
     </tbody>
   )
